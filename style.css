@@ -178,6 +178,7 @@ header {
   padding: 0.3rem 0.5rem 0.3rem 2rem;
   background-color: var(--blue-color);
   outline: none;
+  color: var(--white-color);
 }
 
 .search-bar::placeholder {
