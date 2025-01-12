@@ -759,10 +759,6 @@ header {
   }
 
   /* EVENTS */
-  .event-img-txt {
-    align-items: start;
-  }
-
   .event-img-txt p,
   .event-time-dates {
     font-size: 0.8rem;
@@ -886,6 +882,15 @@ header {
 }
 
 @media screen and (max-width: 800px) {
+  /* HEADER */
+  .user-name h1 {
+    font-size: 1rem;
+  }
+
+  .search-bar {
+    width: 130px;
+  }
+
   /* TEACHERS and PROJECTS */
   .teachers-projects {
     flex-flow: column;
@@ -894,6 +899,54 @@ header {
   /* PROJECTS */
   .projects-boxes {
     grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* HEADER */
+  .user-name h1 {
+    font-size: 0.9rem;
+  }
+
+  .user-con {
+    gap: 1rem;
+  }
+
+  .search-bar {
+    width: 110px;
+    font-size: 0.9rem;
+  }
+
+  .name {
+    font-size: 0.9rem;
+  }
+
+  .log-out-btn {
+    font-size: 0.9rem;
+    padding-inline: 1rem;
+  }
+
+  /* SUMMARY REPORT */
+  .info-list {
+    flex-flow: column;
+  }
+
+  .info-list li {
+    padding-block: 0.5rem;
+  }
+
+  /* EVENTS */
+  .event-cards {
+    flex-flow: column;
+  }
+
+  .event-img-txt {
+    align-items: center;
+  }
+
+  .event-img-txt p,
+  .event-time-dates {
+    font-size: 1rem;
   }
 }
 
@@ -981,24 +1034,6 @@ header {
   /* MAIN */
   .main {
     width: 100%;
-  }
-
-  /* SUMMARY REPORT */
-  .info-list {
-    flex-flow: column;
-  }
-
-  .info-list li {
-    padding-block: 0.5rem;
-  }
-
-  /* EVENTS */
-  .event-cards {
-    flex-flow: column;
-  }
-
-  .event-img-txt p {
-    font-size: 0.9rem;
   }
 }
 
