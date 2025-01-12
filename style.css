@@ -509,7 +509,7 @@ header {
 
 .projects-boxes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(198px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(194px, 1fr));
   gap: 1rem;
 }
 
@@ -739,7 +739,7 @@ header {
 
   /* PROJECTS */
   .projects-boxes {
-    grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
   }
 }
 
